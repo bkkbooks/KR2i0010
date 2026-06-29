@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR2i0010/v1
+canonical_location: https://kanripo.org/bkk/KR2i0010/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 江南別錄
+  date: '2015-08-24 22:37:27.441865'
+  source:
+    repository: kanripo
+    path: KR2i0010
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2i0010_000.yaml, hash: 'sha256:941643895c1c9965002954bb5f1fe16de16adfec254f9e6ebca499084b653c04'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2i0010_000.markers.yaml, hash: 'sha256:98937285915af0c8a95734ec1cd279790f72ecc07cbff853660116cd0e1d717d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2i0010_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 423
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2i0010_WYG_000-3a
+    span:
+    - body
+    - 423
+    - 6302
+  label: 江南别録
+  type: section
+  level: 1
+hash: sha256:289773d1b05932ad9b96f2a705f0d95b16d53c72a0b0b60afd2f423f43b03b65
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
